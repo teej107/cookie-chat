@@ -1,33 +1,90 @@
-html {
-  height: 100%;
-  width: 100%;
+html
+{
+    height: 100%;
+    width: 100%;
 }
 
-body {
-  height: 95%;
-  width: 100%;
-  font-family: sans-serif;
+body
+{
+    height: 95%;
+    width: 100%;
+    font-family: sans-serif;
 }
 
-.main-container {
-  width: 75%;
-  margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
-  padding: 5px;
-  border-radius: 10px;
+.main-container
+{
+    width: 75%;
+    margin: 10px auto;
+    background: rgba(255, 255, 255, 0.86);
+    padding: 5px;
+    border-radius: 10px;
 }
 
-.main-container h1 {
-  text-align: center;
+.main-container h1
+{
+    text-align: center;
 }
 
-.text-box {
-  margin: 0px auto;
-  width: 40%;
+.messages-container
+{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
 }
 
-p{
-  text-align: center;
-  margin: 3px 0;
-  font-size: 17px;
+.text-box
+{
+    margin: 0px auto;
+    width: 40%;
+}
+
+p
+{
+    margin: 3px 0;
+    font-size: 17px;
+}
+
+.message-box
+{
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 4px 0;
+}
+
+.message-div
+{
+    display: inline-block;
+}
+
+.message
+{
+    text-align: left;
+    height: 100%;
+}
+
+.timestamp-div
+{
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+
+.timestamp
+{
+    text-align: center;
+    color: white;
+}
+
+.blue-message
+{
+    background-color: rgb(178, 210, 255);
+}
+
+.gray-message
+{
+    background-color: rgb(230, 230, 230);
 }
